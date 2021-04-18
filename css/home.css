@@ -1,0 +1,156 @@
+body{
+	margin:0;
+	padding:0;
+	font-family:Arial;
+	
+}
+
+/* Nav Start */
+.nav {
+	top: 0;
+	width: 100%;
+	overflow: hidden;
+	display: block;
+	position: -webkit-sticky;
+    position: sticky;
+    background-color: #1C6740;
+	
+}
+.nav .nav_img img {
+	float:left;
+	width:35px;
+	margin-top: 8px;
+	margin-right:22%;
+	margin-left:3%;
+}
+.nav .nav_img img:hover{
+	cursor: pointer;
+}
+
+.nav .nav_cat a {
+	
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 16px 34px;
+	  text-decoration: none;
+	  font-size: 16px;
+  
+}
+.nav .nav_cat a:hover {
+  background-color:#589D44;
+  color: black;
+}
+
+.nav .nav_cat a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.nav .nav_cat button.log{
+	border-radius: 25px;
+	float:right;
+	 background-color:#1C6740;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-size:16px;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin: 4px 2px;
+	margin-top: 0.4%;
+	margin-right:1%;
+	outline:none;
+}
+.nav .nav_cat button.log:hover{
+	background-color:#1F5C3F;
+}
+.nav .nav_cat button.log:active{
+		position:relative;
+	    top:1px;
+}
+.nav .nav_cat button.sign{
+	border-radius:25px;
+	float:right;
+	 background-color:#3D8744;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#FFFFFF;
+	font-size:16px;
+	padding:10px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+	margin: 4px 2px;
+	margin-top: 0.4%;
+	overflow:hidden;
+	display:block;
+	outline:none;
+}
+.nav .nav_cat button.sign:hover{
+	background-color:#1F5C3F;
+}
+.nav .nav_cat button.sign:active{
+	position:relative;
+	top:1px;
+}
+/* Nav End */
+/* Slidebar Start */
+.slidebar{
+}
+
+.slidebar img{
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+}
+/* Slidebar End */
+
+/* Content Start */
+.content{
+	
+}
+.content h1{
+	background-color:#FFFFFF;
+	color:#2C2E2F;
+	text-align:center;
+	margin-top:5%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.content h4{
+	background-color:#FFFFFF;
+	color:#2C2E2F;
+	text-align:center;
+	margin-top:2%;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+.content h2{
+	background-color:#FFFFFF;
+	color:#2C2E2F;
+	text-align:center;
+	margin-top:5%;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+/* Content End */
+
+/* Second Slidebar Start */
+.slidebar2{
+	
+}
+.slidebar2 img{
+	margin-bottom: -4px;
+}
+/* Second Slidebar End */
+
+
+
+
+
+
